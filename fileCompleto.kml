@@ -1,11 +1,20 @@
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document>
 <Placemark id="0">
-<ExtendedData>
-  <Data name="fill-opacity"><value>0</value></Data>
-  <Data name="stroke-opacity"><value>1</value></Data>
-  <Data name="stroke"><value>#ff0000</value></Data></ExtendedData>
+    <Style id="firstLine">
+      <LinearRing>
+        <color>ffff0000</color>
+      </LinearRing>
+    </Style>
+
+    <Style id="secondLine">
+      <LinearRing>
+        <color>#0716e4</color>
+      </LinearRing>
+    </Style>
+
   <Polygon>
 <outerBoundaryIs>
+<styleUrl>#fistLine</styleUrl>
   <LinearRing><coordinates>7.66587469613063,45.0864461144928
 7.6638102889233,45.0863744908601
 7.66176577848939,45.0861603102726
@@ -71,15 +80,11 @@
 7.66998361377187,45.0861603102726
 7.66793910333796,45.0863744908601
 7.66587469613063,45.0864461144928</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
 <Placemark id="1">
-<ExtendedData>
-  <Data name="stroke"><value>#0716e4</value></Data>
-  <Data name="stroke-width"><value>2</value></Data>
-  <Data name="stroke-opacity"><value>1</value></Data>
-  <Data name="fill"><value>#0091ff</value></Data>
-  <Data name="fill-opacity"><value>0.5</value></Data></ExtendedData>
   <Polygon>
 <outerBoundaryIs>
+<styleUrl>#secondLine</styleUrl>
   <LinearRing><coordinates>7.628145497629362,45.17323716603379
 7.622695498334637,45.173048287455984
 7.617298093043353,45.1724834744639
