@@ -2,9 +2,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Placemark>
     <Style>
-      <LineStyle>
-        <color>#22b1bf</color>
-      </LineStyle>
+
+        <geomColor>ff0000ff</geomColor>
+        <geomScale>1</geomScale>
+
     </Style>
 
         <LineString>
