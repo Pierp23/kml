@@ -3,10 +3,10 @@
   <Placemark>
     <Style>
       <LineStyle>
-        <color>ff7300ff</color>
+        <color>ff0073ff</color>
       </LineStyle>
       <PolyStyle>
-        <color>1f7300ff</color>
+        <color>1f0073ff</color>
       </PolyStyle>
     </Style>
     <Polygon>
